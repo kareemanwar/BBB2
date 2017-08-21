@@ -75,9 +75,45 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bet by bit logo 1.png" />
+    <Content Include="goldgenerate.jpg" />
+    <Content Include="Grid1.aspx" />
+    <Content Include="Grid2.aspx" />
+    <Content Include="Grid3.aspx" />
+    <Content Include="HeaderBG3.jpg" />
+    <Content Include="HeaderExperiment.aspx" />
+    <Content Include="inplaycover.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Grid1.aspx.cs">
+      <DependentUpon>Grid1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grid1.aspx.designer.cs">
+      <DependentUpon>Grid1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grid2.aspx.cs">
+      <DependentUpon>Grid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grid2.aspx.designer.cs">
+      <DependentUpon>Grid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grid3.aspx.cs">
+      <DependentUpon>Grid3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grid3.aspx.designer.cs">
+      <DependentUpon>Grid3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderExperiment.aspx.cs">
+      <DependentUpon>HeaderExperiment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HeaderExperiment.aspx.designer.cs">
+      <DependentUpon>HeaderExperiment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
